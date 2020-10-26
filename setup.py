@@ -48,4 +48,7 @@ setup(
     version=HAPI_VERSION,
     packages=['hapi',],
     license='MIT',
+    install_requires=[
+        'numpy'
+    ],
 )
